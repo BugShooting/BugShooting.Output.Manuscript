@@ -1,0 +1,43 @@
+<!-- saved from url=(0014)about:internet -->
+<html>
+	<head>
+		
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+		<title>{TITLE}</title>
+		<style type="text/css">
+		td
+		{
+			font-family: Verdana,arial,sans-serif;
+			font-size: 1.5em;
+			color: #000000;
+		}
+		</style>
+		<script lang="JavaScript">
+			function submitForm()
+			{
+
+			    setTimeout(function () {
+			        document.getElementById("form").submit();
+			    }, 1);
+
+				
+			}
+		</script>
+	</head>
+	<body onload="submitForm()">
+		<table border="0" width="100%" height="100%">
+			<tr>
+				<td align="center" valign="middle">
+                    {TITLE}
+				</td>
+			</tr>
+		</table>
+
+		<form action="{URL}" method="POST" id="form"><input type="hidden" name="pg" value="pgSubmitScreenshot">
+<input type="hidden" name="fSaveOnly" value="0">
+{FORM_DATA}
+</form>
+		
+	</body>
+</html>
+
