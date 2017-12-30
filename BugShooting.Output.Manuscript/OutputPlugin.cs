@@ -34,7 +34,7 @@ namespace BugShooting.Output.Manuscript
 
     protected override string Description
     {
-      get { return "Attach screenshots to Manuscript Cases."; }
+      get { return "Attach screenshots to Manuscript cases."; }
     }
     
     protected override Output CreateOutput(IWin32Window Owner)
